@@ -20,7 +20,7 @@ $campo4 = $_POST['campo4'];
 $campo5 = $_POST['campo5'];
 
 // Insert the form data into the TERMOAVE table
-$sql = "INSERT INTO TERMOAVE (campo1, campo2, campo3, campo4, campo5) VALUES ('$campo1', '$campo2', '$campo3', '$campo4', '$campo5')";
+$sql = "INSERT INTO  (campo1, campo2, campo3, campo4, campo5) VALUES ('$campo1', '$campo2', '$campo3', '$campo4', '$campo5')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Data inserted successfully";
