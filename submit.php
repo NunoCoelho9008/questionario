@@ -1,9 +1,9 @@
 <?php
 // Establish a connection to the database
-$servername = "localhost";
-$username = "id22054120_termoave";
+$servername = "";
+$username = "";
 $password = "";
-$dbname = "id22054120_termoavedb";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
